@@ -1,0 +1,17 @@
+{
+  "$async": true,
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "city",
+    "state"
+  ],
+  "properties": {
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  }
+}

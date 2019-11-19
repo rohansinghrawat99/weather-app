@@ -1,4 +1,4 @@
 export interface CurrentWeatherDto {
-    latitude: number,
-    longitude: number
+    city: string,
+    state: string
 }
